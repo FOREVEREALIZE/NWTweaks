@@ -1,10 +1,10 @@
-package com.newwind.nwtweaks.registry;
+package com.newwind.nwtweaks.joymix.registry;
 
 import java.util.HashMap;
 
-import com.newwind.nwtweaks.NWTweaks;
-import com.newwind.nwtweaks.item.BlockItemWDescription;
-import com.newwind.nwtweaks.item.CraftedCommandBlock;
+import com.newwind.nwtweaks.joymix.JoyMixNWTweaks;
+import com.newwind.nwtweaks.joymix.item.BlockItemWDescription;
+import com.newwind.nwtweaks.joymix.item.CraftedCommandBlock;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -21,7 +21,7 @@ public class Items {
 	public static final HashMap<RegistryObject<Block>, RegistryObject<Item>> BLOCK_ITEMS = new HashMap<>();
 
 	private static final DeferredRegister<Item> ITEM_REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS,
-			NWTweaks.modid);
+			JoyMixNWTweaks.modid);
 
 	public static final RegistryObject<BlockItem> FAKE_COMMAND_BLOCK = ITEM_REGISTRY.register(
 			"fake_command_block",

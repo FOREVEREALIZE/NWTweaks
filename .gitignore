@@ -1,5 +1,9 @@
-.gradle/
+# IDEs
 .vscode/
+.idea/
+
+# Gradle Stuff
+.gradle/
 bin/
 build/
 run/

@@ -1,6 +1,6 @@
-package com.newwind.nwtweaks.item;
+package com.newwind.nwtweaks.joymix.item;
 
-import com.newwind.nwtweaks.registry.Items;
+import com.newwind.nwtweaks.joymix.registry.Items;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityPredicate;

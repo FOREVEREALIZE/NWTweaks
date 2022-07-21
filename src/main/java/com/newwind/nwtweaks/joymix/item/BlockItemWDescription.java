@@ -1,8 +1,8 @@
-package com.newwind.nwtweaks.item;
+package com.newwind.nwtweaks.joymix.item;
 
 import java.util.List;
 
-import com.newwind.nwtweaks.NWTweaks;
+import com.newwind.nwtweaks.joymix.JoyMixNWTweaks;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.util.ITooltipFlag;
@@ -22,7 +22,7 @@ public class BlockItemWDescription extends BlockItem {
 	public void appendHoverText(ItemStack stack, World world, List<ITextComponent> tooltip,
 			ITooltipFlag flag) {
 		super.appendHoverText(stack, world, tooltip, flag);
-		tooltip.add(new TranslationTextComponent("description." + NWTweaks.modid + "." + this.getRegistryName().getPath()));
+		tooltip.add(new TranslationTextComponent("description." + JoyMixNWTweaks.modid + "." + this.getRegistryName().getPath()));
 	}
 
 }

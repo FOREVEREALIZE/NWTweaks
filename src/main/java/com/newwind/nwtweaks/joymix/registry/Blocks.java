@@ -1,7 +1,6 @@
-package com.newwind.nwtweaks.registry;
+package com.newwind.nwtweaks.joymix.registry;
 
-import com.newwind.nwtweaks.NWTweaks;
-import com.newwind.nwtweaks.block.EnderCommandBlock;
+import com.newwind.nwtweaks.joymix.JoyMixNWTweaks;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -14,7 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class Blocks {
 
-	private static final DeferredRegister<Block> BLOCK_REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, NWTweaks.modid);
+	private static final DeferredRegister<Block> BLOCK_REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, JoyMixNWTweaks.modid);
 
 	public static final RegistryObject<Block> FAKE_COMMAND_BLOCK = BLOCK_REGISTRY.register(
 		"fake_command_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_ORANGE)

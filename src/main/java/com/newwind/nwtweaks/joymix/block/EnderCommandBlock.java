@@ -1,4 +1,4 @@
-package com.newwind.nwtweaks.block;
+package com.newwind.nwtweaks.joymix.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
